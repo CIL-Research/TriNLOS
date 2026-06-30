@@ -1,0 +1,25 @@
+data/
+.claude/
+__pycache__/
+.ipynb_checkpoints/
+
+# datasets (raw data는 repo 제외)
+*.csv
+
+# models / weights
+*.pth
+*.ckpt
+
+# media / depth / render
+*.png
+*.jpg
+*.jpeg
+*.hdr
+*.mp4
+*.mat
+
+# scene 폴더 내 이미지는 README용으로 추적
+!scene/*.png
+
+# python cache
+*.pyc

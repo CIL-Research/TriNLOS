@@ -1,0 +1,20 @@
+train_data: dataset/train.pth
+
+val_data:
+  - dataset/seen.pth
+  - dataset/unseen.pth
+
+val_names:
+  - seen
+  - unseen
+
+checkpoint_dir: runs/default
+
+epochs: 35
+batch_size: 4
+lr: 1.0e-4
+lr_min: 1.0e-6
+weight_decay: 1.0e-4
+accum_steps: 1
+num_workers: 8
+seed: 1234567
