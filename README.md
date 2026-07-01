@@ -39,8 +39,11 @@ Download the pretrained weights and dataset from [here](https://www.dropbox.com/
 ---
 
 ## Data
+Download the pretrained dataset from [here](https://www.dropbox.com/).
 
-Synthetic transients are rendered using the [LFE](https://github.com/princeton-computational-imaging/NLOSFeatureEmbeddings) renderer. Real-world captures can be downloaded from [NLOST](https://github.com/Depth2World/NLOST) and [FK](https://github.com/computational-imaging/nlos-fk).
+Synthetic transients are rendered using the [LFE](https://github.com/princeton-computational-imaging/NLOSFeatureEmbeddings) renderer. The released dataset includes processed data derived from the unseen split of [NLOST](https://github.com/Depth2World/NLOST), together with our generated data. 
+
+Real-world captures can be downloaded from [NLOST](https://github.com/Depth2World/NLOST) and [FK](https://github.com/computational-imaging/nlos-fk).
 
 ### Directory layout
 
